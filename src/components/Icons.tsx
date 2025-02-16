@@ -56,7 +56,7 @@ export function GitHubButton() {
                 position: 'fixed',
                 zIndex: 999,
                 top: '1rem',
-                left: '4.5rem',
+                left: '1rem',
                 borderRadius: '50%',
                 boxShadow: 'sm',
             }}
@@ -78,7 +78,7 @@ export function ItchButton() {
                 position: 'fixed',
                 zIndex: 999,
                 top: '1rem',
-                left: '1rem',
+                left: '8rem',
                 borderRadius: '50%',
                 boxShadow: 'sm',
             }}
@@ -100,7 +100,7 @@ export function CoffeeButton() {
                 position: 'fixed',
                 zIndex: 999,
                 top: '1rem',
-                right: '4.5rem',
+                left: '4.5rem',
                 borderRadius: '50%',
                 boxShadow: 'sm',
             }}
