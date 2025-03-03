@@ -13,7 +13,7 @@ export default function GameBlank() {
         fontWeight="xl"
         fontSize="clamp(1.875rem, 1.3636rem + 2.1818vw, 3rem)"
       >
-        Drawing Party Sandbox
+        Sandbox Party Drawing
       </Typography>
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Create your own cards and make up the rules of the game as you go!
