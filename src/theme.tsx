@@ -1,7 +1,7 @@
 import { extendTheme } from '@mui/joy/styles';
 import { inputClasses } from '@mui/joy/Input';
 
-export default extendTheme({
+export const framesxTheme = extendTheme({
   colorSchemes: {
     light: {
       palette: {

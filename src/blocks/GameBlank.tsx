@@ -13,10 +13,10 @@ export default function GameBlank() {
         fontWeight="xl"
         fontSize="clamp(1.875rem, 1.3636rem + 2.1818vw, 3rem)"
       >
-        No Cards - No Rules
+        Drawing Party Sandbox
       </Typography>
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
-        Draw your own cards and make up the rules of the game as you go!
+        Create your own cards and make up the rules of the game as you go!
       </Typography>
       <Button size='lg' target="_blank" component="a" href="https://white.mcteamster.com/">
         Play Now!
