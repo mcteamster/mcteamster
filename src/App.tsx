@@ -27,16 +27,13 @@ function Container() {
 
   return (
     <>
-      <ItchButton />
-      <GitHubButton />
-      <CoffeeButton />
       <Box
         sx={{
           height: '100vh',
           overflowY: 'scroll',
           scrollSnapType: 'y mandatory',
           '& > div': {
-            scrollSnapAlign: 'start',
+            scrollSnapAlign: 'center',
           },
         }}
       >
@@ -46,6 +43,9 @@ function Container() {
         <GameDrink />
         <GameHalloween />
       </Box>
+      <ItchButton />
+      <GitHubButton />
+      <CoffeeButton />
     </>
   )
 }

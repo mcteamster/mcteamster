@@ -4,24 +4,20 @@ import Box from '@mui/joy/Box';
 import Container from '@mui/joy/Container';
 import { typographyClasses } from '@mui/joy/Typography';
 
-export default function TwoSidedLayout({
-  children,
-  reversed,
-  image,
-}: React.PropsWithChildren<{ reversed?: boolean, image?: string }>) {
+export default function TwoSidedLayout({ children, reversed, image, }: React.PropsWithChildren<{ reversed?: boolean, image?: string }>) {
   return (
     <Container
       sx={(theme) => ({
         position: 'relative',
-        minHeight: '50vh',
         display: 'flex',
         flexDirection: reversed ? 'column-reverse' : 'column',
         alignItems: 'center',
-        py: 10,
-        gap: 4,
+        py: '50%',
+        gap: 1,
         [theme.breakpoints.up(834)]: {
           flexDirection: 'row',
           gap: 6,
+          py: 10,
         },
         [theme.breakpoints.up(1199)]: {
           gap: 12,
@@ -39,7 +35,7 @@ export default function TwoSidedLayout({
             alignSelf: 'initial',
             flexGrow: 1,
             '--AspectRatio-maxHeight': '520px',
-            '--AspectRatio-minHeight': '400px',
+            '--AspectRatio-minHeight': '360px',
           },
           borderRadius: 'sm',
           bgcolor: 'background.level2',
