@@ -33,7 +33,7 @@ function Container() {
           overflowY: 'scroll',
           scrollSnapType: 'y mandatory',
           '& > div': {
-            scrollSnapAlign: 'center',
+            scrollSnapAlign: 'end',
           },
         }}
       >

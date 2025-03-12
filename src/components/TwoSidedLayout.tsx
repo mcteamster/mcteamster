@@ -10,7 +10,7 @@ export default function TwoSidedLayout({ children, reversed, image, }: React.Pro
       sx={(theme) => ({
         position: 'relative',
         display: 'flex',
-        minHeight: '80vh',
+        minHeight: '100vh',
         flexDirection: reversed ? 'column-reverse' : 'column',
         alignItems: 'center',
         py: 10,
