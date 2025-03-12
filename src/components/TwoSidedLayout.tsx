@@ -13,12 +13,11 @@ export default function TwoSidedLayout({ children, reversed, image, }: React.Pro
         minHeight: '80vh',
         flexDirection: reversed ? 'column-reverse' : 'column',
         alignItems: 'center',
-        py: 2,
+        py: 10,
         gap: 1,
         [theme.breakpoints.up(834)]: {
           flexDirection: 'row',
           gap: 6,
-          py: 10,
           minHeight: '30vh',
         },
         [theme.breakpoints.up(1199)]: {
