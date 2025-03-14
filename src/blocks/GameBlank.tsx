@@ -6,6 +6,21 @@ export default function GameBlank() {
   return (
     <TwoSidedLayout image="/blank.png">
       <Typography
+        level="h4"
+        sx={{
+          width: '100%',
+          position: 'absolute',
+          top: '1.5rem',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        games by mcteamster
+      </Typography>
+      <Typography
         level="h1"
         fontWeight="xl"
         fontSize="clamp(1.875rem, 1.3636rem + 2.1818vw, 3rem)"
@@ -18,7 +33,7 @@ export default function GameBlank() {
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Create your own cards and make up the rules of the game as you go!
       </Typography>
-      <Button size='lg' target="_blank" component="a" href="https://white.mcteamster.com/">
+      <Button size='lg' component="a" href="https://white.mcteamster.com/">
         Play Now!
       </Button>
     </TwoSidedLayout>

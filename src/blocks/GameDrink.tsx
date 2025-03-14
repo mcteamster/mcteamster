@@ -18,7 +18,7 @@ export default function GameDrink() {
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Get on the beers, COVID Era style.
       </Typography>
-      <Button size='lg' target="_blank" component="a" href="https://drinkingold.mcteamster.com/">
+      <Button size='lg' component="a" href="https://drinkingold.mcteamster.com/">
         Play Now!
       </Button>
     </TwoSidedLayout>

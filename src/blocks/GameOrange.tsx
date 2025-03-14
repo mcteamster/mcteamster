@@ -18,7 +18,7 @@ export default function GameOrange() {
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Can you overcome your crippling hangover and find the Orange Narwhal?
       </Typography>
-      <Button size='lg' target="_blank" component="a" href="https://orange.mcteamster.com/">
+      <Button size='lg' component="a" href="https://orange.mcteamster.com/">
         Play Now!
       </Button>
     </TwoSidedLayout>

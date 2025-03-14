@@ -19,7 +19,7 @@ export function ItchButton() {
         borderRadius: '50%',
         boxShadow: 'sm',
       }}
-      target="_blank" component="a" href="https://mcteamster.itch.io/"
+      component="a" href="https://mcteamster.itch.io/"
     >
       <SportsEsportsIcon />
     </IconButton>
@@ -42,7 +42,7 @@ export function GitHubButton() {
         borderRadius: '50%',
         boxShadow: 'sm',
       }}
-      target="_blank" component="a" href="https://github.com/mcteamster"
+      component="a" href="https://github.com/mcteamster"
     >
       <GitHubIcon />
     </IconButton>
@@ -65,7 +65,7 @@ export function CoffeeButton() {
         borderRadius: '50%',
         boxShadow: 'sm',
       }}
-      target="_blank" component="a" href="https://www.buymeacoffee.com/mcteamster/"
+      component="a" href="https://www.buymeacoffee.com/mcteamster/"
     >
       <CoffeeIcon />
     </IconButton>

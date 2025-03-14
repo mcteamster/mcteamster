@@ -18,7 +18,7 @@ export default function GameTwinge() {
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         How hard could it possibly be to count upwards together? 
       </Typography>
-      <Button size='lg' target="_blank" component="a" href="https://twinge.mcteamster.com/">
+      <Button size='lg' component="a" href="https://twinge.mcteamster.com/">
         Play Now!
       </Button>
     </TwoSidedLayout>

@@ -18,7 +18,7 @@ export default function GameHalloween() {
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         A 2D side shooter that pushes the limits of what Office can do.
       </Typography>
-      <Button size='lg' target="_blank" component="a" href="https://mcteamster.itch.io/halloween">
+      <Button size='lg' component="a" href="https://mcteamster.itch.io/halloween">
         Download
       </Button>
     </TwoSidedLayout>
