@@ -12,13 +12,13 @@ export default function GameOrange() {
       >
         A Point-and-Click Fever Dream
       </Typography>
-      <Typography color="primary" fontSize="lg" fontWeight="lg">
+      <Typography color="warning" fontSize="lg" fontWeight="lg">
         2022 - Desktop
       </Typography>
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Can you overcome your crippling hangover and find the Orange Narwhal?
       </Typography>
-      <Button size='lg' component="a" href="https://orange.mcteamster.com/">
+      <Button color="warning" size='lg' component="a" href="https://orange.mcteamster.com/">
         Play Now!
       </Button>
     </TwoSidedLayout>

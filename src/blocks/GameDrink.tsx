@@ -12,13 +12,13 @@ export default function GameDrink() {
       >
         Aussie Pub Crawl Simulator
       </Typography>
-      <Typography color="primary" fontSize="lg" fontWeight="lg">
+      <Typography color="success" fontSize="lg" fontWeight="lg">
         2021 - Web
       </Typography>
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Get on the beers, COVID Era style.
       </Typography>
-      <Button size='lg' component="a" href="https://drinkingold.mcteamster.com/">
+      <Button color="success" size='lg' component="a" href="https://drinkingold.mcteamster.com/">
         Play Now!
       </Button>
     </TwoSidedLayout>

@@ -27,13 +27,13 @@ export default function GameBlank() {
       >
         Sandbox Party Drawing
       </Typography>
-      <Typography color="primary" fontSize="lg" fontWeight="lg">
+      <Typography color="neutral" fontSize="lg" fontWeight="lg">
         2025 - Web
       </Typography>
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Create your own cards and make up the rules of the game as you go!
       </Typography>
-      <Button size='lg' component="a" href="https://white.mcteamster.com/">
+      <Button color="neutral" size='lg' component="a" href="https://white.mcteamster.com/">
         Play Now!
       </Button>
     </TwoSidedLayout>
