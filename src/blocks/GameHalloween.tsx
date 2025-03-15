@@ -12,13 +12,13 @@ export default function GameHalloween() {
       >
         Death by PowerPoint
       </Typography>
-      <Typography color="primary" fontSize="lg" fontWeight="lg">
+      <Typography color="danger" fontSize="lg" fontWeight="lg">
         2018 - PowerPoint
       </Typography>
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         A 2D side shooter that pushes the limits of what Office can do.
       </Typography>
-      <Button color="primary" size='lg' component="a" href="https://mcteamster.itch.io/halloween">
+      <Button color="danger" size='lg' component="a" href="https://mcteamster.itch.io/halloween">
         Download
       </Button>
     </TwoSidedLayout>

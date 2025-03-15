@@ -12,13 +12,13 @@ export default function GameTwinge() {
       >
         One-Button Co-Op Counting
       </Typography>
-      <Typography color="danger" fontSize="lg" fontWeight="lg">
+      <Typography color="primary" fontSize="lg" fontWeight="lg">
         2022 - Web
       </Typography>
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         How hard could it possibly be to count upwards together? 
       </Typography>
-      <Button color="danger" size='lg' component="a" href="https://twinge.mcteamster.com/">
+      <Button color="primary" size='lg' component="a" href="https://twinge.mcteamster.com/">
         Play Now!
       </Button>
     </TwoSidedLayout>
