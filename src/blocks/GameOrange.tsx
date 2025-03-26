@@ -19,7 +19,7 @@ export default function GameOrange() {
         Can you overcome your crippling hangover and find the Orange Narwhal?
       </Typography>
       <Button color="warning" size='lg' component="a" href="https://orange.mcteamster.com/">
-        Play Now!
+        Learn More
       </Button>
     </TwoSidedLayout>
   );
