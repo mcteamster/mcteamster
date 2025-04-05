@@ -33,7 +33,7 @@ export default function GameBlank() {
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Create your own cards and make up the rules of the game as you go!
       </Typography>
-      <Button color="neutral" size='lg' component="a" href="https://white.mcteamster.com/">
+      <Button color="neutral" size='lg' component="a" href="https://blankwhite.cards/">
         Play Now!
       </Button>
     </TwoSidedLayout>

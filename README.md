@@ -3,7 +3,7 @@ Full-Stack-Dev-Sec-Sys-Ops Engineer 😉
 
 🎮 [mcteamster.com](https://mcteamster.com) ~ Games
 ---
-◻️ [Blank White Cards](https://white.mcteamster.com) ~ Freeform Party Drawing
+◻️ [Blank White Cards](https://blankwhite.cards) ~ Freeform Party Drawing
 
 🍊 [Find the Orange Narwhal](https://orange.mcteamster.com) ~ Point and Click Adventure
 
