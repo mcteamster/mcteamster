@@ -11,4 +11,6 @@ Full-Stack-Dev-Sec-Sys-Ops Engineer 😉
 
 🌱 [tonz.io](https://tonz.io) - Business, Blog, Apps
 ---
+📍 [Virgo](https://github.com/mcteamster/virgo) - Fast and Private Geolocation Library
+
 ⚖️ [Libra](https://libra.tonz.io) - Gender Equity Bill Splitter
