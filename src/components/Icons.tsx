@@ -2,6 +2,8 @@ import IconButton from '@mui/joy/IconButton';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import CoffeeIcon from '@mui/icons-material/Coffee';
+import DiscordIcon from '../assets/discord.svg';
+import SteamIcon from '../assets/steam.svg';
 
 export function ItchButton() {
   return (
@@ -68,6 +70,44 @@ export function CoffeeButton() {
       component="a" href="https://www.buymeacoffee.com/mcteamster/"
     >
       <CoffeeIcon />
+    </IconButton>
+  );
+}
+
+export function DiscordButton(props: { url: string }) {
+  return (
+    <IconButton
+      id="toggle-mode"
+      size="lg"
+      variant="soft"
+      color="neutral"
+      sx={{
+        margin: '0 0.5em',
+        borderRadius: '50%',
+        boxShadow: 'sm',
+      }}
+      component="a" href={props.url}
+    >
+      <img height='75%' width='75%' src={DiscordIcon} />
+    </IconButton>
+  );
+}
+
+export function SteamButton(props: { url: string }) {
+  return (
+    <IconButton
+      id="toggle-mode"
+      size="lg"
+      variant="soft"
+      color="neutral"
+      sx={{
+        margin: '0 0.5em',
+        borderRadius: '50%',
+        boxShadow: 'sm',
+      }}
+      component="a" href={props.url}
+    >
+      <img src={SteamIcon} />
     </IconButton>
   );
 }

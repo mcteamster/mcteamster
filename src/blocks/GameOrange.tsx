@@ -1,6 +1,6 @@
-import Button from '@mui/joy/Button';
-import Typography from '@mui/joy/Typography';
+import { Box, Button, Typography } from '@mui/joy';
 import TwoSidedLayout from '../components/TwoSidedLayout';
+import { SteamButton } from '../components/Icons';
 
 export default function GameOrange() {
   return (
@@ -18,9 +18,14 @@ export default function GameOrange() {
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Can you overcome your crippling hangover and find the Orange Narwhal?
       </Typography>
-      <Button color="warning" size='lg' component="a" href="https://orange.mcteamster.com/">
-        Learn More
-      </Button>
+      <Box sx={{
+        display: 'flex',
+      }}>
+        <Button color="warning" size='lg' component="a" href="https://orange.mcteamster.com/">
+          Learn More
+        </Button>
+        <SteamButton url="https://store.steampowered.com/app/2946010/Find_the_Orange_Narwhal/" />
+      </Box>
     </TwoSidedLayout>
   );
 }

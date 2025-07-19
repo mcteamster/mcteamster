@@ -1,6 +1,6 @@
-import Button from '@mui/joy/Button';
-import Typography from '@mui/joy/Typography';
+import { Box, Button, Typography } from '@mui/joy';
 import TwoSidedLayout from '../components/TwoSidedLayout';
+import { DiscordButton } from '../components/Icons';
 
 export default function GameTwinge() {
   return (
@@ -18,9 +18,14 @@ export default function GameTwinge() {
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         How hard could it possibly be to count upwards together? 
       </Typography>
-      <Button color="primary" size='lg' component="a" href="https://twinge.mcteamster.com/">
-        Play Now!
-      </Button>
+      <Box sx={{
+        display: 'flex',
+      }}>
+        <Button color="primary" size='lg' component="a" href="https://twinge.mcteamster.com/">
+          Play Now!
+        </Button>
+        <DiscordButton url="https://discord.com/discovery/applications/1385639813268373587" />
+      </Box>
     </TwoSidedLayout>
   );
 }

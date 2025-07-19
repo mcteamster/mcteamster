@@ -1,6 +1,6 @@
-import Button from '@mui/joy/Button';
-import Typography from '@mui/joy/Typography';
+import { Box, Button, Typography } from '@mui/joy';
 import TwoSidedLayout from '../components/TwoSidedLayout';
+import { DiscordButton } from '../components/Icons';
 
 export default function GameBlank() {
   return (
@@ -33,9 +33,14 @@ export default function GameBlank() {
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Create your own cards and make up the rules of the game as you go!
       </Typography>
-      <Button color="neutral" size='lg' component="a" href="https://blankwhite.cards/">
-        Play Now!
-      </Button>
+      <Box sx={{
+        display: 'flex',
+      }}>
+        <Button color="neutral" size='lg' component="a" href="https://blankwhite.cards/">
+          Play Now!
+        </Button>
+        <DiscordButton url="https://discord.com/discovery/applications/1389508624774201395" />
+      </Box>
     </TwoSidedLayout>
   );
 }
