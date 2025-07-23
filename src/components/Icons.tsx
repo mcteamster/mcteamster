@@ -89,7 +89,7 @@ export function DiscordButton(props: { url: string }) {
       }}
       component="a" href={props.url}
     >
-      <img height='75%' width='75%' src={DiscordIcon} />
+      <img height='25px' width='25px' src={DiscordIcon} />
     </IconButton>
   );
 }
@@ -109,7 +109,7 @@ export function SteamButton(props: { url: string }) {
       }}
       component="a" href={props.url}
     >
-      <img src={SteamIcon} />
+      <img height='25px' width='25px'  src={SteamIcon} />
     </IconButton>
   );
 }
