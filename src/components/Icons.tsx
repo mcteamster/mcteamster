@@ -85,6 +85,7 @@ export function DiscordButton(props: { url: string }) {
         margin: '0 0.5em',
         borderRadius: '50%',
         boxShadow: 'sm',
+        flexGrow: 'none',
       }}
       component="a" href={props.url}
     >
@@ -104,6 +105,7 @@ export function SteamButton(props: { url: string }) {
         margin: '0 0.5em',
         borderRadius: '50%',
         boxShadow: 'sm',
+        flexGrow: 'none',
       }}
       component="a" href={props.url}
     >
