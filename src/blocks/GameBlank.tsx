@@ -25,7 +25,7 @@ export default function GameBlank() {
         fontWeight="xl"
         fontSize="clamp(1.875rem, 1.3636rem + 2.1818vw, 3rem)"
       >
-        Sandbox Party Drawing
+        Global Drawing Party 
       </Typography>
       <Typography color="neutral" fontSize="lg" fontWeight="lg">
         2025 - Web
