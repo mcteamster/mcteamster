@@ -7,6 +7,7 @@ import GameOrange from './blocks/GameOrange';
 import GameTwinge from './blocks/GameTwinge';
 import GameDrink from './blocks/GameDrink';
 import GameBlank from './blocks/GameBlank';
+import GameBlack from './blocks/GameBlack';
 import GameHalloween from './blocks/GameHalloween';
 import { useEffect } from 'react';
 
@@ -37,6 +38,7 @@ function Container() {
           },
         }}
       >
+        <GameBlack />
         <GameBlank />
         <GameOrange />
         <GameTwinge />
