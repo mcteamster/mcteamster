@@ -26,7 +26,7 @@ function Card(props: CardProps) {
           <small className="font-sans antialiased text-sm text-current">
             {props.data.date}
           </small>
-          <p className="font-sans antialiased text-base mt-1 text-stone-600">
+          <p className="font-sans antialiased text-base mt-1 text-stone-600 min-h-[3rem]">
             {props.data.description}
           </p>
         </div>

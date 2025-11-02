@@ -1,53 +1,13 @@
-import { CssVarsProvider, useColorScheme } from '@mui/joy/styles';
-import Box from '@mui/joy/Box';
-import CssBaseline from '@mui/joy/CssBaseline';
-import { framesxTheme } from './theme';
-import { CoffeeButton, GitHubButton, ItchButton } from './components/Icons';
-import GameOrange from './blocks/GameOrange';
-import GameTwinge from './blocks/GameTwinge';
-import GameDrink from './blocks/GameDrink';
-import GameBlank from './blocks/GameBlank';
-import GameBlack from './blocks/GameBlack';
-import GameHalloween from './blocks/GameHalloween';
-import { useEffect } from 'react';
+import Games from './components/Games'
+import Navbar from './components/Navbar'
 
-export default function App() {
-  return (
-    <CssVarsProvider disableTransitionOnChange theme={framesxTheme}>
-      <CssBaseline />
-      <Container />
-    </CssVarsProvider>
-  );
-}
-
-function Container() {
-  const { setMode } = useColorScheme();
-  useEffect(() => {
-    setMode('dark');
-  }, [setMode]);
-
+function App() {
   return (
     <>
-      <Box
-        sx={{
-          height: '100vh',
-          overflowY: 'scroll',
-          scrollSnapType: 'y mandatory',
-          '& > div': {
-            scrollSnapAlign: 'end',
-          },
-        }}
-      >
-        <GameBlack />
-        <GameBlank />
-        <GameOrange />
-        <GameTwinge />
-        <GameDrink />
-        <GameHalloween />
-      </Box>
-      <ItchButton />
-      <GitHubButton />
-      <CoffeeButton />
+      <Navbar />
+      <Games />
     </>
   )
 }
+
+export default App
