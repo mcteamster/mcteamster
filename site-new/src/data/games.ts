@@ -10,7 +10,7 @@ export const gameData = {
     {
       title: "Blank White Cards",
       description: "Create your own cards and make up the rules as you go!",
-      date: "2025/2019",
+      date: "2025 / 2019",
       image: "blank.png",
       link: "https://blankwhite.cards",
       discord: "https://discord.com/discovery/applications/1389508624774201395",
@@ -22,6 +22,7 @@ export const gameData = {
       image: "orange.png",
       link: "https://orange.mcteamster.com",
       steam: "https://store.steampowered.com/app/2946010/Find_the_Orange_Narwhal",
+      colour: 'bg-orange-400',
     },
     {
       title: "Twinge",
