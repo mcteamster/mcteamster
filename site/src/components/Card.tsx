@@ -17,7 +17,7 @@ interface CardProps {
 function Card(props: CardProps) {
   return (
     <>
-      <div className={`${props.data.colour || 'bg-slate-200'} w-full rounded-lg border shadow-sm shadow-stone-950/5 max-w-[20rem] overflow-hidden m-5`}>
+      <div className={`${props.data.colour || 'bg-slate-100'} w-full rounded-lg border shadow-sm shadow-stone-950/5 max-w-[20rem] overflow-hidden m-5`}>
         <img src={props.data.image} alt="ui/ux review check" className="w-[calc(100%-16px)] h-max rounded m-2" />
         <div className="w-full h-max rounded px-3.5 py-2.5 text-center">
           <h6 className="font-sans antialiased font-bold text-base md:text-lg lg:text-xl text-current">
