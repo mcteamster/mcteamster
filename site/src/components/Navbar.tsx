@@ -1,6 +1,6 @@
 function Navbar() {
   return <>
-    <nav className="fixed top-0 z-10 border shadow-lg overflow-hidden p-1 bg-slate-100 shadow-stone-950/5 w-full">
+    <nav className="fixed top-0 z-10 shadow-lg overflow-hidden p-1 bg-slate-100 shadow-stone-950/5 w-full">
       <div className="flex items-center">
         <a href="#" className="font-sans antialiased text-sm text-current mx-2 block py-1 font-semibold">
           games by mcteamster
