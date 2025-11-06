@@ -1,8 +1,22 @@
 @import "tailwindcss";
 
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
+
 body {
-  margin: 0;
-  height: 100%;
+  background: linear-gradient(to bottom, #050C1B, #0B324B, #77A2B8, #898E58);
   background-image: url("https://mcteamster.com/img/splash.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
