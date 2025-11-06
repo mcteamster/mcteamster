@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 html {
-  background-image: url("https://mcteamster.com/jpeg/splash.jpeg");
+  background-image: url("https://mcteamster.com/img/splash.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
