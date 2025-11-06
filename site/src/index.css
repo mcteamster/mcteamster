@@ -1,9 +1,6 @@
 @import "tailwindcss";
 
 html {
-  margin: 0;
-  min-height: 100%;
-  background: linear-gradient(to bottom, #050C1B, #0B324B, #77A2B8, #898E58);
   background-image: url("https://mcteamster.com/jpeg/splash.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
