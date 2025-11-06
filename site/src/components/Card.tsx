@@ -17,9 +17,9 @@ interface CardProps {
 function Card(props: CardProps) {
   return (
     <>
-      <div className={`${props.data.colour || 'bg-slate-100'} w-full rounded-lg border shadow-sm shadow-stone-950/5 max-w-[20rem] overflow-hidden m-5`}>
+      <div className={`${props.data.colour || 'bg-slate-100'} w-full rounded-lg border shadow-sm shadow-stone-950/5 max-w-[20rem] overflow-hidden m-5 z-5`}>
         <a href={props.data.link} target="_blank" rel="noopener noreferrer">
-          <img src={props.data.image} className="w-[calc(100%-16px)] aspect-16/9 rounded m-2" />
+          <img src={props.data.image} loading="lazy" className="w-[calc(100%-16px)] aspect-16/9 rounded m-2" />
         </a>
         <div className="w-full h-max rounded px-3.5 py-2.5 text-center">
           <h6 className="font-sans antialiased font-bold text-base md:text-lg lg:text-xl text-current">

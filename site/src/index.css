@@ -14,11 +14,3 @@
     /* Firefox */
   }
 }
-
-body {
-  background: linear-gradient(to bottom, #050C1B, #0B324B, #77A2B8, #898E58);
-  background-image: url("https://mcteamster.com/img/splash.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
