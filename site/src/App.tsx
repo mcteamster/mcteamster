@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Games from './components/Games'
 import Background from './components/Background'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Games />
       <Background />
+      <Footer />
     </>
   )
 }

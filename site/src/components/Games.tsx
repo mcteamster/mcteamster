@@ -4,7 +4,7 @@ import { gameData } from '../data/games'
 function Games() {
   return (
     <>
-      <div className='flex flex-wrap justify-center items-center pt-15 min-h-[90vh]'>
+      <div className='flex flex-wrap justify-center items-center pt-15 pb-5 min-h-[90vh]'>
         {gameData.games.map((game, index) => (
           <Card key={index} data={game} />
         ))}
