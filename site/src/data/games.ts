@@ -6,6 +6,7 @@ export const gameData = {
       date: "2025",
       image: "img/black.jpeg",
       link: "https://black.mcteamster.com",
+      colour: "bg-zinc-400",
     },
     {
       title: "Blank White Cards",
@@ -30,6 +31,7 @@ export const gameData = {
       date: "2022",
       image: "img/twinge.jpeg",
       link: "https://twinge.mcteamster.com",
+      colour: "bg-indigo-400",
       discord: "https://discord.com/discovery/applications/1385639813268373587",
     },
     {
@@ -38,6 +40,7 @@ export const gameData = {
       date: "2021",
       image: "img/drink.jpeg",
       link: "https://drinkingold.mcteamster.com",
+      colour: "bg-amber-400",
     },
     {
       title: "Halloween",
@@ -45,6 +48,7 @@ export const gameData = {
       date: "2018",
       image: "img/halloween.jpeg",
       link: "https://mcteamster.itch.io/halloween",
+      colour: "bg-emerald-400",
     },
   ]
 }
