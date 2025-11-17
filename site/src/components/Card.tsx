@@ -35,7 +35,7 @@ function Card(props: CardProps) {
             }
           </div>
         }
-        <a href={props.data.link} target="_blank" rel="noopener noreferrer">
+        <a href={props.data.link} target="_blank" rel="noopener">
           <img src={props.data.image} loading="lazy" className="w-[calc(100%-16px)] aspect-16/9 rounded m-2" />
         </a>        
         <div className="w-full h-max rounded px-3.5 py-2.5 text-center">
