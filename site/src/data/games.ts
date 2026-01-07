@@ -1,6 +1,14 @@
 export const gameData = {
   games: [
     {
+      title: "On the Spectrum",
+      description: "Full-spectrum multiplayer colour guesing!",
+      date: "2026",
+      image: "img/rgb.jpeg",
+      link: "https://rgb.mcteamster.com",
+      colour: "bg-gradient-to-tl from-red-500 via-green-300 to-blue-500",
+    },
+    {
       title: "Please DO NOT the cat",
       description: "An idle/clicker roguelike in 13kb. Submission for JS13K 2025.",
       date: "2025",
