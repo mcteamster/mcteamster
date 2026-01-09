@@ -7,6 +7,7 @@ export const gameData = {
       image: "img/rgb.jpeg",
       link: "https://rgb.mcteamster.com",
       colour: "bg-gradient-to-tl from-red-500 via-green-300 to-blue-500",
+      discord: "https://discord.com/discovery/applications/1458048532639514800",
     },
     {
       title: "Please DO NOT the cat",
