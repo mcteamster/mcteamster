@@ -3,6 +3,8 @@ Full-Stack-Dev-Sec-Sys-Ops Engineer 😉
 
 🎮 [mcteamster.com](https://mcteamster.com) - Games
 ---
+🌈 [On the Spectrum](https://rgb.mcteamster.com) - Describe the Vibe of Colours ([Discord](https://discord.com/discovery/applications/1458048532639514800))
+
 🐈‍⬛ [please DO NOT the cat](https://black.mcteamster.com) - Roguelike Idle/Clicker in 13k (for [JS13K 2025](https://js13kgames.com/games/please-do-not-the-cat))
 
 ◻️ [Blank White Cards](https://blankwhite.cards) - Global Drawing Party ([Discord](https://discord.com/discovery/applications/1389508624774201395))
