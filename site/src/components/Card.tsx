@@ -37,18 +37,18 @@ function Card(props: CardProps) {
         }
         <a href={props.data.link} target="_blank" rel="noopener">
           <img src={props.data.image} loading="lazy" className="w-[calc(100%-16px)] aspect-16/9 rounded m-2" />
-        </a>        
-        <div className="w-full h-max rounded px-3.5 py-2.5 text-center">
-          <h6 className="font-sans antialiased font-bold text-base md:text-lg lg:text-xl text-current">
-            {props.data.title}&nbsp;
-            <small className="font-sans antialiased text-sm text-current">
-              ({props.data.date})
-            </small>
-          </h6>
-          <p className="flex items-center justify-center font-sans antialiased text-base mt-1 text-stone-600 min-h-[3rem]">
-            {props.data.description}
-          </p>
-        </div>
+                  <div className="w-full h-max rounded px-3.5 py-2.5 text-center">
+            <h6 className="font-sans antialiased font-bold text-base md:text-lg lg:text-xl text-current">
+              {props.data.title}&nbsp;
+              <small className="font-sans antialiased text-sm text-current">
+                ({props.data.date})
+              </small>
+            </h6>
+            <p className="flex items-center justify-center font-sans antialiased text-base mt-1 text-stone-600 min-h-[3rem]">
+              {props.data.description}
+            </p>
+          </div>
+        </a>
       </div>
     </>
   )
