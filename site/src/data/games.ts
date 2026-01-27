@@ -6,7 +6,7 @@ export const gameData = {
       date: "2026",
       image: "img/rgb.jpeg",
       link: "https://rgb.mcteamster.com",
-      colour: "bg-gradient-to-tl from-red-500 via-green-300 to-blue-500",
+      colour: "bg-gradient-to-tl from-red-500 via-green-500 to-blue-500",
       discord: "https://discord.com/discovery/applications/1458048532639514800",
     },
     {
@@ -15,7 +15,7 @@ export const gameData = {
       date: "2025",
       image: "img/black.jpeg",
       link: "https://black.mcteamster.com",
-      colour: "bg-zinc-400",
+      colour: "bg-zinc-500",
     },
     {
       title: "Blank White Cards",
