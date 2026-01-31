@@ -48,7 +48,7 @@ export const gameData = {
       description: "Aussie Pub Crawl Simulator. Get on the beers.",
       date: "2021",
       image: "img/drink.jpeg",
-      link: "https://drinkingold.mcteamster.com",
+      link: "https://gold.mcteamster.com",
       colour: "bg-amber-400",
     },
     {
