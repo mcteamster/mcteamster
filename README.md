@@ -1,4 +1,4 @@
-# 🎮 [mcteamster.com](https://mcteamster.com)
+## 🎮 [mcteamster.com](https://mcteamster.com)
 ### games by mcteamster
 
 🌈 [On the Spectrum](https://rgb.mcteamster.com) - Describe the Vibe of Colours ([Discord](https://discord.com/discovery/applications/1458048532639514800))
