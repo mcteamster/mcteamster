@@ -14,9 +14,6 @@ function Navbar() {
               <a href="https://mcteamster.itch.io" target="_blank" rel="noopener noreferrer" className="font-sans antialiased text-sm text-current p-1 hover:text-primary underline">Itch.io</a>
             </li>
             <li>
-              <a href="https://www.buymeacoffee.com/mcteamster" target="_blank" rel="noopener noreferrer" className="font-sans antialiased text-sm text-current p-1 hover:text-primary underline">Support</a>
-            </li>
-            <li>
               <a href="https://bsky.app/profile/mcteamster.com" target="_blank" rel="noopener noreferrer" className="font-sans antialiased text-md text-current p-1 hover:text-primary">&#x1F98B;</a>
             </li>
           </ul>
